@@ -249,7 +249,7 @@ def accetta_mc(prob: np.ndarray, mask: np.ndarray) -> np.ndarray:
 Nel blocco precedente si è analizzata l'interazione del fotone con il rivelatore trigger. 
 Adesso dobbiamo guardare cosa fa il secondo fotone, scatterato back to back quando becca il piombo: può decidere di passare come se fosse trasparente o di fare Comton
 è molto probabile che faccia fotoelettrico ma una volta che interagisce con un elettrone, il fotone muore e non raggiunge il rivelatore2. 
-Il coefficiente di attenuazione totale è mu_tot = mu_compton + mu_fotoelettrico. Come abbiamo visto prima usiamo mu_totale per vedere se il fotone interagisce 
+Come abbiamo visto prima usiamo mu_totale per vedere se il fotone interagisce 
 Se interagisce lanciamo altri numeri randomici per vedere quale interazione ha fatto: se il numero estratto è minore di (mu_fotoelettrico)/mu_tot allora fa fotoelettrico
 e il fotone muore. Se è maggiore allora fa Compton. 
 """
