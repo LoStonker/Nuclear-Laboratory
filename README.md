@@ -1,2 +1,2 @@
 # Nuclear-Laboratory
-files and other thing used in the lab experience
+files and other things from the experience of the course of Nuclear Physics Experimentation
