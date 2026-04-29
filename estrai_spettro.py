@@ -22,24 +22,17 @@ from pathlib import Path
 import pandas as pd
 
 
-# =============================================================================
-# CONFIGURAZIONE  –  modifica solo questa sezione
-# =============================================================================
-
 INPUT_DIR   = "misure_stabilita"            # cartella con i file .dat cumulativi
 OUTPUT_DIR  = "lab nucleare"  # cartella di destinazione dei differenziali
-FILE_PATTERN = "*.dat"       # pattern per trovare i file (es. "na22_*.dat")
+FILE_PATTERN = "*.dat"       # pattern per trovare i file 
 
-# Se i file hanno un timestamp nel nome usabile per l'ordinamento, mettilo qui.
-# Altrimenti l'ordinamento avviene per data di modifica del file (mtime).
-# Opzioni: "mtime" | "name"
 SORT_BY = "mtime"
 
-# Numero di canali atteso (8192 per ADC a 13 bit). Usato solo per sanity check.
+# Numero di canali atteso 
 N_CHANNELS_EXPECTED = 8192
 
-# Se True, i bin con Δ < 0 vengono azzerati (conversione "fisica").
-# Se False, vengono mantenuti (utile per diagnostica statistica).
+# Se True, i bin con Δ < 0 vengono azzerati.
+# Se False, vengono mantenuti.
 CLIP_NEGATIVE = False
 
 # Quanti spettri differenziali plottare in anteprima (0 = nessuno)
