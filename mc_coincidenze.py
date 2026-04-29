@@ -4,12 +4,10 @@ mc_coincidenze.py
 Simulazione Monte Carlo dell'efficienza di coincidenza per l'esperimento
 di scattering Compton con sorgente Na-22.
 
-FISICA:
-  Il Na-22 decade β+ → positrone annichila con un elettrone → due fotoni da 511 keV
-  emessi back-to-back (collineari, direzioni opposte) con distribuzione isotropa.
 
-  Il rivelatore A è FISSO (asse +X). Il rivelatore B RUOTA nel piano XY
-  attorno alla sorgente (angolo α). Si contano le coincidenze in funzione di α.
+
+Il rivelatore A è FISSO (asse +X). Il rivelatore B RUOTA nel piano XY
+attorno alla sorgente (angolo α). Si contano le coincidenze in funzione di α.
 
 GEOMETRIA:
   - Sorgente nell'origine (0,0,0)
