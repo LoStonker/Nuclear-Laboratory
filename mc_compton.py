@@ -23,7 +23,7 @@ from matplotlib.patches import Ellipse
 
 
 # ══════════════════════════════════════════════════════════════════════════════
-#  PARAMETRI GEOMETRICI  ← MODIFICA CON I TUOI VALORI REALI
+#  PARAMETRI GEOMETRICI  
 # ══════════════════════════════════════════════════════════════════════════════
 
 # --- Geometria rivelatori ---
