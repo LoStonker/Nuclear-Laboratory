@@ -38,19 +38,19 @@ D_pb = 14           # [cm] distanza tra la sorgente e il piombo
 W_pb = 2            # [cm] dimensione laterale piombo (cioè distanza orizzontale)
 a_pb = 3            # [cm] altra dimensione del piombo
 
-# --- Feature 1: sorgente estesa ---
+# --- sorgente estesa ---
 R_SOURCE = 0.1      # [cm]  raggio del dischetto sorgente  (1 mm = 0.1 cm)
 
-# --- Feature 2: NaI a 511 keV ---
+# --- NaI a 511 keV ---
 # μ_tot(NaI, 511 keV) = (μ/ρ) × ρ = 0.0952 cm²/g × 3.67 g/cm³ ≈ 0.349 cm⁻¹
 # Fonte: NIST XCOM per NaI a 511 keV
 MU_NAI = 0.349      # [cm⁻¹]
 
-# --- Feature 4: aria a 511 keV ---
+# --- aria a 511 keV ---
 # μ_aria(511 keV) = (μ/ρ) × ρ_aria = 0.0862 cm²/g × 1.293e-3 g/cm³ = 1.115e-4 cm⁻¹
 MU_AIR = 1.115e-4   # [cm⁻¹]  — piccolo ma non zero a ~20 cm
 
-# --- Feature 3: coincidenze accidentali ---
+# --- coincidenze accidentali ---
 ACTIVITY_BQ  = (10*(10**-6))*(3.7*10**10)  # [Bq]   attività sorgente (tipica Na-22 da lab: 1–100 kBq)
 TAU_GATE_S   = (3.64)*10**-6   # [s]    larghezza gate di coincidenza (100 ns tipico)
 T_ACQ_S      = 3600.0     # [s]    durata acquisizione per angolo
